@@ -118,10 +118,12 @@ section div h2 {
 }
 
 .glr_gran {
-	display: none;
+	position: absolute;
+	top: -200%;
 }
 
 .glr_gran:target {
+	transition: all 0.25s;
 	position: fixed;
 	background: rgba(0,0,0,0.8);
 	top: 0;
@@ -179,6 +181,10 @@ section div h2 {
 	padding: 25px;
 	border-radius: 50%;
 	line-height: 25px;
+}
+
+.cerrar a, .cerrar a:hover {
+	text-decoration: none;
 }
 
 .contacte {
