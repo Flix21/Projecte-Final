@@ -40,27 +40,18 @@ header {
 	border-color: #FFBF59;
 }
 
-.nav-btn-selected {
-	border-color: #FFBF59;
+.btn-primary {
 	background-color: #FFBF59;
-	opacity: 1;
-}
-
-.nav-btn-selected:hover {
-	border-color: #FFBF59;
-	background-color: #FF8C00;
-	opacity: 1;
+	border-color: #FF8C00;
 }
 
 .nav-btn {
 	border-color: #FF8C00;
 	background-color: #FFBF59;
-	opacity: 0.5;
 }
 
 .nav-btn:hover {
 	background-color: #FF8C00;
-	opacity: 1;
 	border-color: #FFBF59;
 
 }
@@ -104,15 +95,6 @@ section div h2 {
 	margin-left: 50px;
 	margin-right: 50px;
 	color: white;
-}
-
-#text {
-	display: flex;
-	flex-direction: column;
-}
-
-#text div, #text p {
-	height: 33%;
 }
 
 .galeria {
